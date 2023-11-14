@@ -19,17 +19,16 @@ header{
 }
 
 main{
-    background-image: linear-gradient(rgb(149, 172, 246), rgb(255, 105, 240));
+    background-image: radial-gradient(rgb(149, 172, 246), rgb(255, 105, 240));
     height: 1300px;
 }
 
-#logo{
-    vertical-align: middle;
-}
+
 
 #toboolist{
     font-weight: bolder;
-    font-size: 4rem;
+    font-size: 3.5rem;
+    font-weight: 800;
     display: inline-block;
 }
 
@@ -51,11 +50,12 @@ main{
     border-radius: 5px;
     margin-top: 1px;
     margin-bottom: 30px;
+    padding-bottom: 40px;
 }
 .buttons{
 
     margin-top: 15px;
-    margin-bottom: 15px;s
+    margin-bottom: 15px;
     line-height: 20px;
     display: inline-block;
     height: auto;
