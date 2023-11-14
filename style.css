@@ -55,12 +55,15 @@ main{
 .buttons{
 
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 15px;s
     line-height: 20px;
     display: inline-block;
     height: auto;
     border: 2px solid;
-    border-radius: 5px;
+    border-radius: 6px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
     color: white;
     font-size: small;
 
@@ -69,15 +72,15 @@ main{
 }
 ul{
     list-style-type: none;
+    margin-left: 40px;
 }
 
 
 #button1{
-    background-color: rgb(76, 169, 250);
+    background-color:hsl(209.47deg 100% 55.69%);
     color: white;
     text-decoration: none;
-    border: 2px solid rgb(76, 169, 250);
-    padding: 5px;
+    border: 2px solidhsl(202.68deg 78.85% 59.22%);
     margin-left: 10px;
 
 }
@@ -86,10 +89,10 @@ ul{
     border: 1px solid gray;
     color: gray;
     text-decoration: none;
-    padding: 5px;
 
 
 }
+
 li{
     margin-top: 20px;
 }
@@ -116,26 +119,26 @@ li{
 
 .task-type{
     height: auto;
-    border: 7px solid;
-    border-radius: 10px;
+    border: 6px solid;
+    border-radius: 15px;
     color: white;
-    font-size: small;
+    font-size:x-small;
     
 }
 
 .editorial{
-    background-color: rgb(65, 38, 199);
-    border-color: rgb(65, 38, 199);
+    background-color:hsl(202.68deg 78.85% 59.22%);
+    border-color: hsl(202.68deg 78.85% 59.22%);
 }
 
 .q1-goals{
-    background-color: rgb(162, 22, 183);
-    border-color: rgb(162, 22, 183);
+    background-color: hsl(262.43deg 68.05% 66.86%);
+    border-color:hsl(262.43deg 68.05% 66.86%);
 }
 
 .recruiting{
-    background-color: limegreen;
-    border-color: limegreen;
+    background-color:hsl(165.33deg 41.28% 57.25%);
+    border-color: hsl(165.33deg 41.28% 57.25%);
 }
 
 .mobile{
@@ -145,12 +148,12 @@ li{
 
 
 .website{
-    background-color: magenta;
-    border-color: magenta;
+    background-color:hsl(328.21deg 60% 61.76%);
+    border-color:hsl(328.21deg 60% 61.76%);
 }
 
 .sales{
 
-    background-color: lightgreen;
-    border-color: lightgreen;
+    background-color:hsl(69.15deg 68.91% 46.67%);
+    border-color: hsl(69.15deg 68.91% 46.67%);
 }
