@@ -13,18 +13,61 @@ header{
     height: 100px;
     background-color: rgb(14, 201, 214);
     line-height: 100px;
-    padding-left: 10px;
+    padding-left: 20px;
 
 
 }
 
+main{
+    background-color: forestgreen;
+}
 
 #logo{
-    vertical-align:middle;
+    vertical-align: middle;
 }
 
 #toboolist{
     font-weight: bolder;
-    font-size: 2.3rem;
+    font-size: 4rem;
     display: inline-block;
+}
+
+.buttons_header{
+    height: 60px;
+    width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.buttons{
+    height: 30px;
+    margin: 15px;
+    line-height: 30px;
+    display: inline-block;
+    border-radius: 6px;
+
+
+
+}
+
+
+#button1{
+    background-color: rgb(76, 169, 250);
+    color: white;
+    text-decoration: none;
+    border: 3px solid rgb(76, 169, 250);
+    padding: 5px;
+
+}
+
+#button2{
+    border: 1px solid gray;
+    color: gray;
+    text-decoration: none;
+    padding: 5px;
+
+
 }
