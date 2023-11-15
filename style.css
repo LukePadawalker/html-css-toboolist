@@ -18,6 +18,10 @@ header{
 
 }
 
+#logo{
+    vertical-align: middle;
+}
+
 main{
     background-image: radial-gradient(rgb(149, 172, 246), rgb(255, 105, 240));
     height: 1300px;
@@ -27,6 +31,7 @@ main{
 
 #toboolist{
     font-weight: bolder;
+    vertical-align: middle;
     font-size: 3.5rem;
     font-weight: 800;
     display: inline-block;
